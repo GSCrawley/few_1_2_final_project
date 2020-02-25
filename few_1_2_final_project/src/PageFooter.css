@@ -1,0 +1,12 @@
+
+
+.PageFooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: rgb(19, 99, 99);
+    color: #fff;
+    text-size-adjust: 50%;
+   }
+   
