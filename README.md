@@ -4,10 +4,12 @@ for my final project for few_1_2, I'm going to build a portfolio website that I 
 , some photography (my Instagram page?), and some music (my souncloud?)
 
 
+# Roadmap 
 
+- write readme
+- outline project 
+- create components 
+- save screenshot pics for each project
+- include link to each project/article
 
-ideas: 
--generate a GIF from keywords in each article
--provide a link to each article after my essay on each article. 
--use Medium API, Instagram API, Soundcloud API (or just make a page with a few youtube vids)
  
