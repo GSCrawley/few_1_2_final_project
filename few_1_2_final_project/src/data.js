@@ -1,7 +1,7 @@
 const data = [
     {
       title: 'A Colorful Breakout Game',
-      image: '/images/Breakout.png',
+      image: '../images/Breakout.png',
       desc: 'A breakout game in JavaScript; with complimentary colors aquired from random colors',
       url:'https://gscrawley.github.io/breakout/dist'
     },

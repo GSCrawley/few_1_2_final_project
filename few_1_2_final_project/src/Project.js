@@ -8,9 +8,9 @@ function Project({ image, title, link }) {
         <div className="ProjectImage">
         <div className="ProjectTitle">
         <div className="ProjectLink">
-        <img src={image} width="300" height="auto" />
+        <img alt="" src={image} width="300" height="auto" />
         <h3>{title}</h3>
-        <Link to={link}>Link to project</Link>
+        <Link to={ link }>Link to project</Link>
         </div>
         </div>
         </div>
