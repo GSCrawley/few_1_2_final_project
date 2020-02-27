@@ -1,18 +1,23 @@
 import React from 'react'
 import data from './data'
 import { Link, useParams } from 'react-router-dom'
+import  './SelectedProject.css'
+
+// {/* <SelectedProject url="" title=""/> */}
 
 function SelectedProject(props) {
     const { index } = useParams()
     const place = data[index]
+
+    console.log("props.url", props.url)
     
     return (
     <div className='project'>
-      <img alt="" src={place.image} width="600" height="400" />
+      <img alt="" src={place.image} width="450" height="auto" />
       <h3>{place.title}</h3>
       <p>{place.desc}</p>
       <Link to='/'>Back to Home</Link>
-      <a href={props.url}>Link to project</a>
+      <a href={place.url}> Link to Project</a>
     </div>
   )
 }

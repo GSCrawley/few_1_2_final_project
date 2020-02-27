@@ -3,7 +3,7 @@
 .PageFooter {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     padding: 1em;
     background-color: rgb(19, 99, 99);
     color: #fff;

@@ -17,7 +17,6 @@ function App() {
       <div className="App">
         <PageHeader />
         <PageFooter />
-        <Project />
         <Route exact path='/' component={PageContent} />
         <Route path='/:index' component={SelectedProject} />
         </div>

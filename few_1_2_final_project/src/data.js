@@ -1,19 +1,21 @@
 const data = [
     {
       title: 'A Colorful Breakout Game',
-      image: '../images/Breakout.png',
+      image: '/images/Breakout.png',
       desc: 'A breakout game in JavaScript; with complimentary colors aquired from random colors',
       url:'https://gscrawley.github.io/breakout/dist'
     },
     {
-      title: '100 pine',
-      image: '/images/100-pine.jpg',
-      desc: 'beautiful water fountain',
+      title: 'ViDate',
+      image: '/images/datingapp.png',
+      desc: 'Demo for a dating app with video chat capability, built using Python, Flask, MongoDB, HTML, CSS',
+      url:'https://winterintensivedatingapp.herokuapp.com/'
     },
     {
-      title: '101 california',
-      image: '/images/101-california.jpg',
-      desc: 'nice sitting area with plants',
+      title: 'Leah & the Infinite Loop',
+      image: '/images/Leah.png',
+      desc: 'Personal Website I designed for a friend, using HTML, CSS, and Bootstrap',
+      url: 'https://gscrawley.github.io/Leah/'
     },
     {
       title: '343 sansome roof garden',
