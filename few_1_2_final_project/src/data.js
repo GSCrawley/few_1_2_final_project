@@ -9,7 +9,7 @@ const data = [
       title: 'ViDate',
       image: '/images/datingapp.png',
       desc: 'Demo for a dating app with video chat capability, built using Python, Flask, MongoDB, HTML, CSS',
-      url:'https://winterintensivedatingapp.herokuapp.com/'
+      url:'https://v-Date.herokuapp.com/'
     },
     {
       title: 'Leah & the Infinite Loop',
@@ -18,34 +18,37 @@ const data = [
       url: 'https://gscrawley.github.io/Leah/'
     },
     {
-      title: '343 sansome roof garden',
-      image: '/images/343-sansome-roof-garden.jpg',
-      desc: 'unique roof garden',
+      title: 'My Open Mic',
+      image: '/images/MyOpenMic.png',
+      desc: 'A site for amateur musicians to post videos of their performances; backend built in Python, front-end HTML5 and CSS.',
+      url: 'https://myopenmic-gsc.herokuapp.com/'
     },
     {
-      title: '525 market street plaza',
-      image: '/images/525-market-street-plaza.jpg',
-      desc: 'large indoor plaza with a fountain',
+      title: 'Rock Star Trivia',
+      image: '/images/rockstartrivia.png',
+      desc: 'A short visual quiz built using Vanilla JavaScript, HTML5 and CSS.',
+      url: 'https://gscrawley.github.io/visual_quiz/'
     },
     {
-      title: 'citigroup center',
-      image: '/images/citigroup-center.jpg',
-      desc: 'neat sitting area with a fountain',
+      title: '10% Velcro',
+      image: '/images/velcro.png',
+      desc: 'I built this website for a friend and her band, using HTML, CSS and Bootstrap.',
+      url: 'https://gscrawley.github.io/velcro/'
     },
-    {
-      title: 'empire park',
-      image: '/images/empire-park.jpg',
-      desc: 'a green shady sitting area',
-    },
-    {
-      title: '150 california garden terrace',
-      image: 'images/garden-terrace-at-150-california.jpg',
-      desc: 'garden terrace with a sitting area',
-    },
-    {
-      title: 'transamerica redwood park',
-      image: '/images/transamerica-redwood-park.jpg',
-      desc: 'massive redwood park, with a fountain',
-    }
+    // {
+    //   title: 'empire park',
+    //   image: '/images/empire-park.jpg',
+    //   desc: 'a green shady sitting area',
+    // },
+    // {
+    //   title: '150 california garden terrace',
+    //   image: 'images/garden-terrace-at-150-california.jpg',
+    //   desc: 'garden terrace with a sitting area',
+    // },
+    // {
+    //   title: 'transamerica redwood park',
+    //   image: '/images/transamerica-redwood-park.jpg',
+    //   desc: 'massive redwood park, with a fountain',
+    // }
   ]
   export default data

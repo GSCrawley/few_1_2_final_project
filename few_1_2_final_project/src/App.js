@@ -1,10 +1,11 @@
 import data from './data';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import PageHeader from './PageHeader';
 import PageFooter from './PageFooter';
+import PageFooter2 from './PageFooter2';
 import PageContent from './PageContent';
 import Project from './Project';
 import SelectedProject from './SelectedProject.js';

@@ -17,6 +17,7 @@ function PageContent() {
           title={place.title} 
           image={place.image} 
           link={`${i}`} 
+          index={i}
         />
       )
     })

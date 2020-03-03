@@ -1,13 +1,13 @@
 
 
-.PageFooter {
+.PageFooter2 {
     width: 100%;
-    height: 50%;
+    height: auto;
     display: flex;
     /* justify-content: right; */
-    padding: 1em;
-    padding-right: 4em;
-    background-color: lightskyblue;
+    /* padding: 1em;
+    padding-right: 7em; */
+    background-color: purple;
     color: #fff;
     text-size-adjust: 50%;
    }

@@ -8,7 +8,12 @@ function Project({ image, title, link, index}) {
             <div className="ProjectImage">
                 <div className="ProjectTitle">
                     <div className="ProjectLink">
-                        <img alt="" src={image} width="300" height="auto" />
+                        <img 
+                            alt="" 
+                            src={`${process.env.PUBLIC_URL}${image}`} 
+                            width="300" 
+                            height="auto" 
+                        />
                         <h3>{title}</h3>
                         <Link to={link}>Project Details</Link>
                     </div>

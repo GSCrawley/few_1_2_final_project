@@ -10,10 +10,16 @@ function SelectedProject(props) {
     const place = data[index]
 
     console.log("props.url", props.url)
+    console.log("place", place, index)
     
     return (
     <div className='project'>
-      <img alt="" src={place.image} width="450" height="auto" />
+      <img 
+        alt="" 
+        src={`${process.env.PUBLIC_URL}${place.image}`} 
+        width="450" 
+        height="auto" 
+      />
       <h3>{place.title}</h3>
       <p>{place.desc}</p>
       <Link to='/'>Back to Home</Link>
